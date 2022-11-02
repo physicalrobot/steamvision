@@ -32,7 +32,56 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.header {
+  position: absolute;
+  width: 1148px;
+  height: 72px;
+  left: 146px;
+  top: 50px;
+}
+
+.SiteHeading {
+  /* Spreading the vision of STEAM */
+
+
+  position: absolute;
+  width: 895px;
+  height: 53px;
+  left: 146px;
+  top: 193px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 53px;
+  text-align: left;
+
+  color: #2155A6;
+}
+
+.tagline {
+  position: absolute;
+  width: 795px;
+  height: 120px;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 40px;
+  top: 70px;
+}
+
+.greentag {
+  color: #60A544;
 }
